@@ -1,0 +1,42 @@
+.row {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.input {
+  display: block;
+  padding: 1.2rem;
+  border: 2px solid #bbb;
+  border-radius: 0.6rem;
+  line-height: 1.25;
+  font-family: inherit;
+  font-size: 1em;
+  transition: border-color 0.1s;
+}
+.input:hover {
+  border-color: #999;
+}
+.input:focus {
+  outline: none;
+}
+.input:focus-visible {
+  border-color: #111;
+}
+
+.searchbox {
+  width: 100%;
+}
+
+.button {
+  cursor: pointer;
+  background-color: #afe1af;
+  border-color: #afe1af;
+  transition: all 0.1s;
+  text-align: center;
+  padding: 1.2rem 1.6rem;
+}
+.button:hover {
+  background-color: #c3e8c3;
+  border-color: #c3e8c3;
+}

@@ -1,0 +1,24 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0 2rem;
+  width: 100%;
+  max-width: 75rem;
+}
+
+.book {
+  display: block;
+}
+
+.title {
+  margin: 0;
+  font-weight: bold;
+}
+
+.author {
+  margin: 0;
+  font-size: 0.8em;
+}
